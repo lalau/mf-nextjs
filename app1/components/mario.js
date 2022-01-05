@@ -5,9 +5,9 @@ import styles from '../styles/Mario.module.css'
 const Mario = () => {
   return (
     <main className={styles.main}>
-      <Image 
-        src="https://upload.wikimedia.org/wikipedia/en/a/a9/MarioNSMBUDeluxe.png" 
-        alt="Mario" 
+      <Image
+        src="https://upload.wikimedia.org/wikipedia/en/a/a9/MarioNSMBUDeluxe.png"
+        alt="Mario"
         width={240}
         height={413}
       />

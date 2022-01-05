@@ -1,10 +1,10 @@
 {
   "private": true,
   "scripts": {
-    "start": "concurrently \"cd app1; yarn dev \" \"cd app2; yarn dev\" \"cd shell; yarn dev \"",
-    "build": "concurrently \"cd app1; yarn build \" \"cd app2; yarn build\" \"cd shell; yarn build \"",
-    "serve": "concurrently \"cd app1; yarn start \" \"cd app2; yarn start\" \"cd shell; yarn start \"",
-    "postinstall": "concurrently \"cd app1; yarn\" \"cd app2; yarn\" \"cd shell; yarn\""
+    "start": "concurrently \"cd app1; npm run dev \" \"cd app2; npm run dev\" \"cd shell; npm run dev \"",
+    "build": "concurrently \"cd app1; npm run build \" \"cd app2; npm run build\" \"cd shell; npm run build \"",
+    "serve": "concurrently \"cd app1; npm run start \" \"cd app2; npm run start\" \"cd shell; npm run start \"",
+    "postinstall": "concurrently \"cd app1; npm i\" \"cd app2; npm i\" \"cd shell; npm i\""
   },
   "dependencies": {
     "concurrently": "^5.2.0"
